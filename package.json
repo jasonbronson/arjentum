@@ -1,10 +1,10 @@
 {
-  "name": "simple-reddit-api-fetch",
+  "name": "simple-reddit-api-fetch-app",
   "version": "1.0.0",
-  "description": "Simple example of fetching Reddit API.",
-  "main": "index.js",
+  "description": "Simple application for fetching Reddit API.",
+  "main": "./src/js/main.js",
   "scripts": {
-    "start": "",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,12 +13,14 @@
   },
   "keywords": [
     "api",
-    "reddit",
-    "javascript",
+    "app",
+    "electron",
     "fetch",
-    "reddit-api",
     "fetch-api",
-    "fetcher"
+    "fetcher",
+    "javascript",
+    "reddit",
+    "reddit-api"
   ],
   "author": {
     "name": "Alex Devero",
@@ -41,6 +43,7 @@
     "babel-register": "^6.24.1",
     "browser-sync": "^2.18.12",
     "cssnano": "^3.10.0",
+    "electron": "^1.6.11",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-changed": "^3.1.0",
