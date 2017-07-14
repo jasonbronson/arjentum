@@ -1,4 +1,9 @@
 # Simple Reddit API fetch
+<!-- [![Build Status](https://circleci.com/gh/alexdevero/simple-reddit-api-fetch.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/simple-reddit-api-fetch/) -->
+[![Dependency Status](https://david-dm.org/alexdevero/simple-reddit-api-fetch.svg?style=flat)](https://david-dm.org/alexdevero/simple-reddit-api-fetch)
+[![devDependency Status](https://david-dm.org/alexdevero/simple-reddit-api-fetch/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/simple-reddit-api-fetch?type=dev)
+[![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 This is a minimal Electron-based application for fetching Reddit API and loading custom subreddits.
 
