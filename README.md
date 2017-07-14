@@ -1,9 +1,12 @@
-# Simple Reddit API fetch
+# Simple Reddit API fetch App
+
+<p align="center">
 <!-- [![Build Status](https://circleci.com/gh/alexdevero/simple-reddit-api-fetch.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/simple-reddit-api-fetch/) -->
 [![Dependency Status](https://david-dm.org/alexdevero/simple-reddit-api-fetch.svg?style=flat)](https://david-dm.org/alexdevero/simple-reddit-api-fetch)
 [![devDependency Status](https://david-dm.org/alexdevero/simple-reddit-api-fetch/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/simple-reddit-api-fetch?type=dev)
 [![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+</p>
 
 This is a minimal Electron-based application for fetching Reddit API and loading custom subreddits.
 
@@ -16,7 +19,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 git clone https://github.com/alexdevero/simple-reddit-api-fetch
 
 # Go into the repository
-cd electron-quick-start
+cd simple-reddit-api-fetch
 
 # Install dependencies
 npm install (or yarn install)
