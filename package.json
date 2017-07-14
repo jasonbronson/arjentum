@@ -4,7 +4,8 @@
   "description": "Simple application for fetching Reddit API.",
   "main": "./src/js/main.js",
   "scripts": {
-    "start": "electron .",
+    "start-pure": "electron .",
+    "start": "gulp start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -46,6 +47,7 @@
     "electron": "^1.6.11",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-batch": "^1.0.5",
     "gulp-changed": "^3.1.0",
     "gulp-csscomb": "^3.0.8",
     "gulp-eslint": "^4.0.0",
@@ -58,7 +60,14 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "minimist": "^1.2.0",
     "postcss-cssnext": "^3.0.2",
-    "require-dir": "^0.3.2"
+    "require-dir": "^0.3.2",
+    "rollup": "^0.45.2",
+    "rollup-plugin-istanbul": "^1.1.0"
+  },
+  "dependencies": {
+    "fs-jetpack": "^1.1.0"
   }
 }
