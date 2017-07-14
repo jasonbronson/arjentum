@@ -1,11 +1,11 @@
 # Simple Reddit API fetch App
 
 <p align="center">
-<!-- [![Build Status](https://circleci.com/gh/alexdevero/simple-reddit-api-fetch.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/simple-reddit-api-fetch/) -->
-[![Dependency Status](https://david-dm.org/alexdevero/simple-reddit-api-fetch.svg?style=flat)](https://david-dm.org/alexdevero/simple-reddit-api-fetch)
-[![devDependency Status](https://david-dm.org/alexdevero/simple-reddit-api-fetch/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/simple-reddit-api-fetch?type=dev)
-[![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+<!-- <a href="https://circleci.com/gh/alexdevero/simple-reddit-api-fetch/"><img alt="Build Status" src="https://circleci.com/gh/alexdevero/simple-reddit-api-fetch.svg?style=shield&circle-token=:circle-token"></a> -->
+<a href="https://david-dm.org/alexdevero/simple-reddit-api-fetch"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/simple-reddit-api-fetch.svg?style=flat"></a>
+<a href="https://david-dm.org/alexdevero/simple-reddit-api-fetch?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/simple-reddit-api-fetch/dev-status.svg?style=flat"></a>
+<a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
+<a href="LICENSE"><img alt="license" src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
 </p>
 
 This is a minimal Electron-based application for fetching Reddit API and loading custom subreddits.
@@ -41,4 +41,4 @@ npm start (or yarn start)
 
 ### License
 
-The code is available under the [MIT license](LICENSE.md).
+The code is available under the [MIT license](LICENSE).
