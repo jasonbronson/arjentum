@@ -33,7 +33,7 @@ gulp.task('sass', () => {
     })
   ];
 
-  return gulp.src(srcDir.path('stylesheets/main.scss'))
+  return gulp.src(srcDir.path('styles/styles.scss'))
   .pipe(plumber())
   .pipe(sourcemaps.init())
   .pipe(sass({
@@ -63,7 +63,7 @@ gulp.task('watch', () => {
   watch('src/**/*.js', batch((events, done) => {
     gulp.start('bundle', beepOnError(done));
   }));
-  watch('src/**/*.scss', batch((events, done) => {
+  watch('src/styles/**/*.scss', batch((events, done) => {
     gulp.start('sass', beepOnError(done));
   }));
 });
