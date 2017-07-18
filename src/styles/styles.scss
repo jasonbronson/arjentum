@@ -17,6 +17,26 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
+  overflow: auto;
+  max-height: 100%;
   text-align: center;
+}
+
+.content {
+  text-align: left;
+}
+
+.entries {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-size: 14px;
+  }
 }
