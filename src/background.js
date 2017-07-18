@@ -10,6 +10,22 @@ import { devMenuTemplate } from './menu/dev_menu_template';
 import { editMenuTemplate } from './menu/edit_menu_template';
 import createWindow from './helpers/window';
 
+// Add context menu (right-click)
+require('electron-context-menu')({
+    prepend: (params, browserWindow) => [{
+        labels: {
+          copy: 'Copy',
+          copyLink: 'Copy Link',
+          // cut: 'Cut',
+          // inspect: 'Inspect',
+          // paste: 'Paste',
+          // save: 'Save Image'
+        },
+        // Only show it when right-clicking images
+        visible: params.mediaType === 'link'
+    }]
+});
+
 // Special module holding environment variables which you declared
 // in config/env_xxx.json file.
 import env from './env';
