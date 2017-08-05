@@ -16,7 +16,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/alexdevero/simple-reddit-api-fetch
+git clone https://github.com/alexdevero/simple-reddit-api-fetch.git
 
 # Go into the repository
 cd simple-reddit-api-fetch
