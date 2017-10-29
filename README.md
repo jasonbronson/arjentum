@@ -38,10 +38,12 @@ npm install
 ```
 Or, if you prefer using Yarn:
 ```
-$ yarn
+yarn
 ```
 
 ### Usage
+
+_Note: Make sure to allow the app to access to the Internet._
 
 #### Run the app
 
