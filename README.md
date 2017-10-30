@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <!-- <a href="https://circleci.com/gh/alexdevero/simple-reddit-api-fetch/"><img alt="Build Status" src="https://circleci.com/gh/alexdevero/simple-reddit-api-fetch.svg?style=shield&circle-token=:circle-token"></a> -->
   <a href="https://david-dm.org/alexdevero/simple-reddit-api-fetch"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/simple-reddit-api-fetch.svg?style=flat"></a>
   <a href="https://david-dm.org/alexdevero/simple-reddit-api-fetch?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/simple-reddit-api-fetch/dev-status.svg?style=flat"></a>
@@ -27,6 +27,7 @@ This is a minimal Electron-based application for fetching Reddit API and loading
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
 #### Clone this repository
+
 ```
 git clone https://github.com/alexdevero/simple-reddit-api-fetch.git
 ```
