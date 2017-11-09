@@ -7,7 +7,7 @@ import './helpers/external_links.js';
 // All stuff below is just to show you how it works. You can delete all of it.
 import { remote } from 'electron';
 import jetpack from 'fs-jetpack';
-import { greet } from './hello_world/hello_world';
+//import { greet } from './hello_world/hello_world';
 import env from './env';
 
 const app = remote.app;
@@ -26,19 +26,18 @@ const osMap = {
 };
 
 settings.set('author', {
-  first: 'Alex',
-  last: 'Devero'
+  first: 'Jason',
+  last: 'Bronson'
 });
 
 settings.get('author.first');
-
 settings.has('author.last');
 
-document.querySelector('#greet').innerHTML = greet();
-document.querySelector('#os').innerHTML = osMap[process.platform];
-document.querySelector('#author').innerHTML = `${settings.get('author.first')} ${settings.get('author.last')}`;
-document.querySelector('#env').innerHTML = env.name;
-document.querySelector('#electron-version').innerHTML = process.versions.electron;
+//document.querySelector('#greet').innerHTML = greet();
+//document.querySelector('#os').innerHTML = osMap[process.platform];
+//document.querySelector('#author').innerHTML = `${settings.get('author.first')} ${settings.get('author.last')}`;
+//document.querySelector('#env').innerHTML = env.name;
+//document.querySelector('#electron-version').innerHTML = process.versions.electron;
 
 
 // Reddit fetch
@@ -81,14 +80,14 @@ subredditBtn.addEventListener('click', (e) => {
         '</option>';
     }
 
-    subredditSelect.innerHTML = links;
+    //subredditSelect.innerHTML = links;
 
-    subredditSelect.classList.remove('hidden');
+    //subredditSelect.classList.remove('hidden');
 
-    subredditSelect.addEventListener('change', (e) => {
+    /*subredditSelect.addEventListener('change', (e) => {
       fetchSubreddit(e.target.value);
     });
-
+    */
     // menuEl.appendChild(select);
   })
 });

@@ -23,7 +23,7 @@ gulp.task('bundle', () => {
   ]);
 });
 
-gulp.task('sass', () => {
+/*gulp.task('sass', () => {
   const processors = [
     cssnext({
       browsers: ['last 5 versions', 'ie >= 9']
@@ -43,6 +43,21 @@ gulp.task('sass', () => {
   .pipe(postcss(processors))
   .pipe(sourcemaps.write('.'))
   .pipe(gulp.dest(destDir.path('stylesheets')));
+});*/
+
+gulp.task('css', () => {
+  const cssFile = srcDir.path('styles/custom.css');
+  projectDir.copy(cssFile, destDir.path('stylesheets/custom.css'), { overwrite: true });
+
+  const fontsFile = srcDir.path('fonts/fontawesome-webfont.woff');
+  projectDir.copy(fontsFile, destDir.path('fonts/fontawesome-webfont.woff'), { overwrite: true });
+
+  const fontsFile2 = srcDir.path('fonts/fontawesome-webfont.woff2');
+  projectDir.copy(fontsFile2, destDir.path('fonts/fontawesome-webfont.woff2'), { overwrite: true });
+
+  const fontawesomeFile = srcDir.path('styles/font-awesome.min.css');
+  projectDir.copy(fontawesomeFile, destDir.path('stylesheets/font-awesome.min.css'), { overwrite: true });
+
 });
 
 gulp.task('environment', () => {
@@ -63,9 +78,9 @@ gulp.task('watch', () => {
   watch('src/**/*.js', batch((events, done) => {
     gulp.start('bundle', beepOnError(done));
   }));
-  watch('src/styles/**/*.scss', batch((events, done) => {
-    gulp.start('sass', beepOnError(done));
+  watch('src/styles/**/*.css', batch((events, done) => {
+    gulp.start('css', beepOnError(done));
   }));
 });
 
-gulp.task('build', ['bundle', 'sass', 'environment']);
+gulp.task('build', ['bundle', 'css', 'environment']);

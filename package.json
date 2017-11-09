@@ -1,11 +1,11 @@
 {
-  "name": "simple-reddit-api-fetch-app",
-  "productName": "Simple Reddit API fetch App",
+  "name": "desktop-client-reddit-app",
+  "productName": "Arjentum - A Desktop Client App for Reddit",
   "version": "1.0.0",
-  "description": "Simple application for fetching Reddit API.",
+  "description": "A Desktop Client App for Reddit",
   "main": "app/background.js",
   "build": {
-    "appId": "com.example.simple-reddit-api-fetch-app",
+    "appId": "com.arjentum.desktop-client-reddit-app",
     "files": [
       "app/**/*",
       "node_modules/**/*",
@@ -41,7 +41,7 @@
     "reddit-api"
   ],
   "author": {
-    "name": "Alex Devero",
+    "name": "Jason Bronson",
     "url": "https://github.com/alexdevero"
   },
   "license": "MIT",
