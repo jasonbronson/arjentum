@@ -13,6 +13,8 @@
 
 This is a Electron-based application for reading Reddit posts.
 
+<img src="screenshot.png">
+
 ### Table of contents
 
 * [Install](#install)
