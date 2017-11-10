@@ -31,7 +31,7 @@
                                 </div>
                             <div class="TopNav-padding TopNav-right" data-reactid="26">
                                 <div class="MobileButton bigFontAwesome" data-reactid="27"><i class="fa fa-pencil" aria-hidden="true"></i></div>
-                                <div class="MobileButton bigFontAwesome" data-reactid="29"><i class="fa fa-search" aria-hidden="true"></i></div>
+                                <div class="MobileButton bigFontAwesome" data-reactid="29"><a href='#' id="subredditSearchBtn"><i class="fa fa-search" aria-hidden="true"></i></a></div>
                                 <div class="MobileButton bigFontAwesome" data-reactid="31"><i class="fa fa-bars" aria-hidden="true"></i></div>
                             </div>
                         </nav>
@@ -118,5 +118,22 @@
     <script src="app.js"></script>
 
 
+    <nav class="OverlayMenu OverlaySearch hide">
+        <ul class="OverlayMenu-ul list-unstyled">
+            <div class="SearchBarOverlay__searchArea">
+                <div class="SearchBarOverlay__close"><span class="icon icon-nav-arrowback"></span></div>
+                <div class="SearchBarOverlay__barContainer">
+                    <form class="SearchBar" action="/search" method="post">
+                        <input type="hidden" name="subreddit" value="">
+                        <input type="search" class="SearchBar__input" name="q" placeholder="Search Reddit" value="">
+                        <div class="SearchBar__reset icon icon-x-circled"></div>
+                    </form>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <script>
+
+    </script>
 
 </body></html>

@@ -8300,6 +8300,10 @@ a.appButton.m-adfeed {
   padding: 10px;
 }
 
+.hide{
+  visibility: hidden;
+}
+
 .MobileButton {
   display: inline-block
 }

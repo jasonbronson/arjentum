@@ -56,7 +56,8 @@
   },
   "private": false,
   "dependencies": {
-    "fs-jetpack": "^1.2.0"
+    "fs-jetpack": "^1.2.0",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
